@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/image_2024_03_28T11_18_50_972Z (1) (1).png" type="image/x-icon">
+    <title>Minha Lista de Tarefas</title>
+</head>
+<body>
+    <h1 class="title">TO DO LIST</h1>
+    <div class="container">
+        <form id="todo-form" class="form">
+            <label for="title">Título da Tarefa</label>
+            <input type="text" class="input" id="title" placeholder="Digite o título" required maxlength="30">
+            <button type="submit" class="button">Adicionar Tarefa</button>
+            <button type="button" class="button" id="delete">Apagar Todas as Tarefas</button>
+        </form>
+    </div>
+
+    <div class="complete-task">
+        <strong><span class="title-element">SUAS ATIVIDADES</span></strong>
+        <div id="card" class="card"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
